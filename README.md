@@ -136,5 +136,10 @@ Return ;
 
 }
 
+verificarUltimo (fila){
+
+filaVazia(fila)
+return fila[fila.indexOf(undefined) -1]
+}
 
 
