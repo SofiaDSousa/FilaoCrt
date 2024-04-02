@@ -92,3 +92,30 @@ retirarItemFila(queue);
 retirarItemFila(queue);
 
 console.log("Fila", queue);
+
+export function verTamanhoFila(fila =[ ]){
+
+let emptySpaces
+(fila.length fila.indexOf(undefined))
+let usedSpaces = emptySpaces
+let size fila.length
+let subQueue = [ ]
+
+for(let i=0; i<fila.indexOf(undefined); i++){
+subQueue[i] = fila[i]
+}
+console.log(
+fila,
+{
+
+
+"emptySpaces"emptySpaces,
+"usedSpaces":usedSpaces,
+"size": size,
+"subQueue": subQueue,
+
+}
+
+)
+
+}
